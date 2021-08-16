@@ -1,29 +1,29 @@
 ---
 id: tokenomics
-title: Tokenomics
+title: Токеномика
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The native BSX token has a max supply of **100,000,000,000 BSX**.
+Нативный токен BSX имеет максимальный запас в **100,000,000,000 BSX**.
 
-The tokens will be distributed as follows (cumulative % of max supply):
+Токены будут распределены следующим образом (совокупный % от максимального количества):
 
-* **15%** - Basilisk Crowdloan
-* **5.63%** - BSX LBP Participants
-* **4.37%** - HDX LBP Participants
-* **15%** - Intergalactic (founding team)
-* **9%** - Treasury
-* **38%** - Liquidity Mining
-* **12%** - Collators
-* **1%** - Airdrop to all wallets holding KSM
+* **15%** - Basilisk краудзайм
+* **5.63%** - BSX LBP Участники
+* **4.37%** - HDX LBP Участники
+* **15%** - Intergalactic (команда основателей)
+* **9%** - Казначейство
+* **38%** - Майнинг ликвидности
+* **12%** - Коллатеры
+* **1%** - Эирдроп на все кошельки держателей токенов KSM
 
-The BSX allocations are subject to a vesting period as exemplified in the following distribution graphic:
+Аллокации токенов BSX подлежат вестингу на определенный период, который вы можете посмотреть в данном графике распределения:
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/tokenomics/bsx_distribution.jpg')}  />
 </div>
 
-Notes:
-* The distribution of all tokens will **begin after the BSX LBP event has concluded**. The BSX LBP event will take place approximately 2-4 weeks after Basilisk has secured its first parachain slot.
-* The exact start date of the rewards for collators and liquidity miners is currently unknown. This should take place within several weeks after conclusion of the BSX LBP event.
+Заметки:
+* Распределение всех токенов BSX **начнется после того, как завершится запуск ликвидности BSX LBP**. Запуск ликвидности BSX LBP начнется примерно через 2-4 недели после того, как Basilisk получит слот парачейна.
+* Точная дата начала получения вознаграждений для коллатеров и майнеров ликвидности неизвестна. Это должно начаться в течении нескольких недель после проведения запуска ликвидности BSX LBP. 
