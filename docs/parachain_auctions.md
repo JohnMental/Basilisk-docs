@@ -1,33 +1,34 @@
 ---
 id: parachain_auctions
-title: Parachain Auctions
+title: Парачейн Аукционы
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Parachain auctions provide a mechanism to distribute the available [parachain](/parachains) slots in Kusama to the most appropriate candidates. This article introduces parachain auctions by exploring two questions: Why do we have parachain auctions, and how do they work?
+Парачейн аукционы предоставляют механизм распределения доступных [парачейн](/parachains) слотов в сети Kusama для наиболее подходящих кандидатов. Данная статья предоставить вам ответы на два вопроса: Для чего нужны аукционы парачейнов и как они работают? 
 
-## Why? {#why}
+## Почему? {#why}
 
-Kusama and Polkadot are only able to support a limited number of parachains which are connected to their relay chain at the same time. The long-term goal for Polkadot is 100 parachains, while Kusama is kicking off the party with 5 parachains in the first round and another 5 to follow shortly thereafter.
+Kusama и Polkadot имею возможность поддержать только ограниченное количество парачейнов, которые будут одновременно подключены к их реле-чейнам. Долгосрочная цель для Polkadot поддержать 100 парачейнов, в то время как Kusama уже запустила 5 парачейнов в первом раунде и на подходе второй раунд с еще 5ю слотами парачейнов.
 
-Against this background, parachain auctions were introduced as a market-efficient instrument for dealing with the scarcity by distributing the available slots to the most appropriate parachain candidates.
+На этом фоне, парачейн аукционы зарекомендовали себя, как эффективный рыночный инструмент для работы с дефицитом путем распределения парачейн слотов наиболее подходящим кандидатам. 
 
+## Как работают парачейн аукционы? {#how}
 
-## How do Parachain Auctions work? {#how}
-
-Parachain slots are offered on an one-by-one basis in separate auctions which have the duration of 1 week. During this timeframe, candidate projects can bid on a parachain slot of their desired duration. The available slots are divided into lease periods of 6 weeks. The maximum duration of a parachain slot is 48 weeks (8 * 6 weeks). Below, you can see the auctions schedule for the first 5 Kusama slots.
+Парачейн слот предоставляются на индивидуальной основе в отдельных аукционах, которые длятся одну неделю. В течении данного промежутка времени, проекты кандидаты могут делать ставки на слот парачейна, в течении любого времени сколько они пожелают. 
+Доступные слоты разделены на периоды аренды по 6 недель. Максимальный период аренды парачейн слота составляет 48 недель (8 * 6 недель). На рисунке ниже, вы можете посмотреть график проведения аукционов за первые 5 слотов Kusama.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/ksm-schedule.jpg')}  />
 </div>
 
-The winner of the auction is the parachain candidate that has offered the **highest amount of KSM to be locked up** for the duration of the parachain slot at the closing moment of the auction. However, this might not be very straight-forward because Kusama uses the so-called **candle auction mechanism** in which the closing moment of the auction is **initially unknown**.
+Победителем аукциона является кандидат за парачейн слот, который предложил **максимальное количество токенов KSM, которые будут заблокированы** на срок аренды слота в момент закрытия аукциона. Однако, это может оказаться не настолько очевидной задачей, так как Kusama используют так называемый **механизм свечного аукциона** при котором момент закрытия аукциона **изначально неизвестен**.
 
-As illustrated by the image below, the candle auctions consist of a starting period (1 day 21 hours) and an ending period (5 days). Candidates are able to bring out their bids at any moment, however the official auction closing moment is determined at the very end by picking a random moment somewhere within the ending period of 5 days. The candidate with the highest bid at that specific moment is the winner of the parachain slot.
+Как изображено на изображении ниже, свечной аукцион состоит из начального периода (1 день 21 час) и заканчивающего периода (5 дней). Кандидаты могут делать ставки в любой момент аукциона, однако официальное закрытие аукциона будет установлено в самом конце, посредством выбора случайного момента в течении 5ти дней заканчивающего периода аукциона. Кандидат с самой высокой ставкой в этот конкретно выбранный момент аукциона и является победителем слота парачейна.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
 
-The rationale behind this auction mechanism is to prevent auction sniping while promoting a more accurate price discovery. For crowdloan backers, it has an important implication: Support the [Basilisk crowdloan](/basilisk_crowdloan) by locking your KSM early rather than late. This way, you make sure that your contribution is counted towards the winning bid of Basilisk.
+Главным обоснованием для подобной механики проведения аукционов, предотвращение давления и среза в момент закрытия аукциона и в это же время, способствуя выявлению наиболее точной и справедливой цены. 
+Для спонсоров и сторонников, это имеет важное значение: поддержите [Basilisk краудзайм](/basilisk_crowdloan) посредством взноса и блокирования ваших токенов KSM в более ранний период времени. Таким образом, вы будете уверены, что ваш вклад будет посчитан как выигрышная ставка для Basilisk. 
