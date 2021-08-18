@@ -1,20 +1,20 @@
 ---
 id: crowdloans
-title: Crowdloans
+title: Краудзаймы
 ---
 
-Crowdloans help [parachain](/parachains) candidates raise sufficient funds for winning a slot in the [parachain auctions](/parachain_auctions). This article provides a general understanding of how crowdloans work. For specific information on our running crowdloan campaign, please head to the [Basilisk crowdloan page](/basilisk_crowdloan).
+Краудзамы помогают кандидатом в [парачейны](/parachains) собрать достаточно средств для победы в борьбе за слот во время [парачейн аукционов](/parachain_auctions). Данная статья расскажет, об общем понимании как устроены краудзаймы. Для более детальной информации о проходящей краудзайм кампании, вы можете узнать в [статье Basilisk краудзайм](/basilisk_crowdloan).
 
 
-## How does a Crowdloan Work? {#how}
+## Как устроен краудзайм? {#how}
 
-Parachain candidates can initiate a crowdloan campaign using the dedicated Kusama crowdloan module. When doing so, they set its goal (amount of KSM to be raised) as well its end date (by when). The crowdloan campaign is usually initiated before the start of the parachain auction, thereby giving the candidate sufficient time to raise funding.
+Парачейн кандидаты могут инициировать краудзайм кампанию используя специально созданный для этого краудзайм модуль. При этом, они устанавливают свою цель (количество токенов KSM, которые они желают собрать), а также финальную дату, к какому дню необходимо собрать средства. Кампания краудзайма обычно инициируется перед началом парачейн аукциона, что дает кандидату достаточно времени для сбора средств.
 
-Crowdloan backers support the parachain candidate of their choice by locking a certain amount of KSM which will be used to place a bid in the parachain auction. The KSM remains locked until one of the following unlocking events has been triggered:
+Спонсоры краудзайма поддерживают кандидата за парачейн на свой выбор, блокируя определенно количество токенов KSM, которые будут использованы в дальнейшем для размещения ставки на аукционе за парачейн. Токены KSM остаются заблокированными до тех пор, пока не случится одно из следующих событий:
 
-* Candidate wins a parachain slot: After the duration of the parachain slot has expired (48 weeks for Basilisk)
-* Candidate does not win a parachain slot: Once the crowdloan goal has been reached or the crowdloan campaign has expired
+* Кандидат выигрывает слот парачейна: По истечению срока (48 недель для Basilisk) слот парачейна является недействительным
+* Кандидат не выигрывает слот парачейна: Как только цель краудзайма была достигнута или по истечению срока краудзайм кампании
 
-While crowdloan backers do receive back their funds in full once the unlocking event has been triggered, participating at a crowdloan still bears the so-called **opportunity costs**. These reflect the benefits that were missed by locking KSM tokens for a given period as opposed to investing them in another way. For example, instead of locking KSM tokens for 1 year, users could decide to stake their KSM which would bring them 10-15% rewards. In this example, the 10-15% rewards represent the opportunity costs of participating at a crowdloan.
+В то время, когда спонсоры и участники краудзайм кампании получают свои средства обратно, участие в данной кампании считается **альтернативными издержками**. Это отражает упущенную прибыль, которая была потеряна в следствии блокирования токенов KSM в указанный промежуток времени, нежели инвестирование их другим способом. Например, вместо того, чтобы блокировать свои токены KSM на 1 год, пользователи могут решить отправить в стейкинг свои KSM и это принесет им примерно прибыли в 10-15% годовых. В данном примере, вознаграждение в 10-15% является альтернативной издержкой за участие в краудзайме. 
 
-At Basilisk, we have made our best to make sure that our backers do not have to think too much about opportunity costs: Check out the generous rewards scheme of the [Basilisk crowdloan](/basilisk_crowdloan)!
+В Basilisk, мы сделали все возможное, чтобы быть уверенными что наши спонсоры и сторонники не думали слишком много об альтернативных издержках: Посмотрите нашу щедрую схему вознаграждений в статье [Basilisk краудзайм](/basilisk_crowdloan)!
