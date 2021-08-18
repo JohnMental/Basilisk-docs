@@ -1,55 +1,55 @@
 ---
 id: crowdloan_guide
-title: Participate in Crowdloan
+title: Участие в Краудзайме
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This article guides you through the process of participating in the [Basilisk crowdloan](/basilisk_crowdloan) using the dedicated crowdloan page: https://loan.bsx.fi
+Эта статья расскажет вам о всех необходимых шагах, которые нужно пройти для участия в [Basilisk Краудзайме](/basilisk_crowdloan) используя посвященную для этого страницу: https://loan.bsx.fi
 
-## Requirements {#requirements}
+## Требования {#requirements}
 
-To participate using the dedicated crowdloan page, you need to have a [Polkadot.js wallet](https://polkadot.js.org/extension/) holding the KSM tokens you want to stake.
+Для участия в краудзайме на посвященной для этого странице, вам необходимо иметь [Polkadot.js кошелек](https://polkadot.js.org/extension/) на котором находятся KSM токены, которые вы хотите внести. 
 
-:::caution
+:::Внимание
 
-It is not possible to participate in the crowdloan using a hardware wallet. Currently, hardware wallets do not support the Kusama crowdloan module. 
+Участие с помощью аппаратных кошельков невозможно. В данный момент, поддержка аппаратных кошельков недоступна в модуле краудзайма Kusama.
 
 :::
 
-## 00 Crowdloan UI {#00-crowdloan-ui}
+## 00 Интерфейс краудзайма {#00-crowdloan-ui}
 
-To access the Basilisk Crowdloan UI, navigate to https://loan.bsx.fi.
+Чтобы получить доступ к интерфейсу краудзайма Basilisk, перейдите на страницу https://loan.bsx.fi.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/crowdloan-guide/chart.png')}  />
 </div>
 
-The chart in the middle provides information about the ongoing auction for the parachain slot. The green line shows the amount of KSM tokens which have been raised by Basilisk, while the yellow line corresponds to the KSM raised by the main competitor of Basilisk. The horizontal red line demarks the beginning of the closing period of the target parachain auction. All this information is relevant for determining the amount of [BSX awards and HDX bonus](/basilisk_crowdloan) which you will receive for your contribution. 
+Данная диаграмма посередине предоставляет информацию о текущем состоянии аукциона за слот парачейна. Зеленая линия показывает количество токенов, которые были собраны в пользу Basilisk, в то время как желтая линия показывает токены KSM, которые были собраны главные конкурентом Basilisk. Горизонтальная красная линия отмечает начало периода закрытия аукциона за слот парачейна. Вся эта информация необходима для определения количества [наград в токенах BSX and HDX бонус](/basilisk_crowdloan)
 
-## 01 Select your address {#01-select-address}
+## 01 Выберите свой адрес {#01-select-address}
 
-To begin, click on *change your account* and select the address holding your KSM tokens.
+Чтобы начать, нажмите на вкладку *change your account* и выберите адрес кошелька на котором находятся ваши токены KSM.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/crowdloan-guide/select-account.png')}  />
 </div>
 
-## 02 Enter your KSM Contribution {#02-enter-ksm-contribution}
+## 02 Введите свой KSM взнос {#02-enter-ksm-contribution}
 
-As a next step, you can enter the amount of KSM you would like to contribute. After doing so, you will see a prediction of the rewards you are going to receive:
+В следующем шаге, вам необходимо ввести количество KSM токенов, которые вы бы хотели внести. После того, как вы это сделаете, вы увидите примерныйй расчет наград, которые вы получите:
 
-* **Minimum BSX Received** - the minimum amount of BSX tokens you can expect to receive for your contribution. The exact amount can only be determined after the crowdloan has closed in the event of a successful auction.
+* **Minimum BSX Received** - минимальное количество токенов BSX, которое вы получите за свой взнос. Точное количество может быть определенно только после завершения и победы в аукционе.
 
-* **Current BSX Received** - a **wild** estimate of how much you would receive under the current auction conditions. This estimate can be unreliable.
+* **Current BSX Received** - a **грубые** расчеты, того сколько токенов BSX вы сможете получить при текущих условиях аукциона. Эти расчеты могут быт недостоверны. 
 
-* **Current HDX Received** - the amount of HDX bonus which will be received for the contribution.
+* **Current HDX Received** - количество бонусных токенов HDX, которые вы получите за свой взнос. 
 
-If you want to know more about the mechanics behind the rewards calculation, please refer to the [Basilisk crowdloan post](/basilisk_crowdloan).
+Если вы хотите узнать больше о механизмах с помощью которых производится расчет, пожалуйста посмотрите [статью Basilisk краудзайм](/basilisk_crowdloan).
 
-## 03 Submit your Contribution {#03-submit}
+## 03 Подтверждение вашего взноса {#03-submit}
 
-To finalize the process, click on *Contribute* and sign the transaction using the account holding your KSM tokens.
+Для завершения процесса взноса, нажмите на кнопку *Contribute* и подпишите транзакцию с помощью аккаунта, на котором вы храните свои токены KSM.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/crowdloan-guide/sign-submit.png')}  />
