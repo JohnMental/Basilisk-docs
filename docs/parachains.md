@@ -1,32 +1,31 @@
 ---
 id: parachains
-title: Parachains
+title: Парачейны
 ---
 
-One of the most distinctive features of Polkadot and Kusama is the support of parachains. Parachains are individual blockchains built on Substrate which are designed to handle specific use-cases and which are connected to the so-called relay chain (i.e. Kusama or Polkadot).
+Одной из самых отличительных особенностей Polkadot и Kusama является поддержка парачейнов. Парачейны - это отдельные, самостоятельные блокчейны построены на основе Substrate, которая разработана для выполнения определенных задач и выполнения различных сценариев использования, которая в свою очередь подключена к так называемому реле-чейну (Например Polkadot или Kusama).
 
-For a better understanding of parachains and their place within the network, this article examines some of their defining characteristics: [specialization](#specialization), [shared security](#shared-security), [scalability](#scalability) and [interoperability](#interoperability).
+Для лучшего понимания, что такое парачейны и какое место они занимают в сети, эта статья описывает некоторые из их ключевых характеристик: [специализация](#specialization), [общая безопасность](#shared-security), [масштабируемость](#scalability) и [совместимость](#interoperability).
 
 
-## Specialization {#specialization}
+## Специализация {#specialization}
 
-The world as we know it is built upon the concept of specialization: The process of becoming experts in a particular area or skill. Parachains bring specialization into the world of blockchain. The design of Kusama empowers parachain developers to focus on the features that make their chain unique while taking advantage of shared security and interoperability.
+Мир, который мы знаем построен вокруг идеи специализации: процесс становления экспертом в определенной области или умении. 
+Парачейны приносят идею специализации в мир блокчейна. Дизайн Kusama дает возможность разработчикам сосредоточиться на функциях и особенностях, которые сделают их блокчейн уникальным, при этом получая преимущество от общей безопасности и совместимости. 
 
-Basilisk's specialization is liquidity bootstrapping for new cryptoassets: With its modular design, Basilisk empowers long tail cryptoassets to bootstrap liquidity using an AMM model of their choice. From traditional XYK-pools, through weighted Liquidity Bootstrapping Pools and curves, all the way to auctions and an NFT marketplace: Basilisk has got you covered.
+Специализация Basilisk - запуск ликвидности для новых крипто активов: благодаря своему модульному дизайну, Basilisk позволяет активам с длинным хвостом запустить ликвидность используя любую модель AMM на свой выбор. Начиная с традиционных XYK-пулов, до взвешенных пулов запуска ликвидности и кривых, вплоть до аукционов и NFT маркетплейса: Basilisk прикроет и поможет вам. 
 
 
 ## Shared Security {#shared-security}
 
-Security is one of the challenges that has been holding back the adoption of specialized layer-1 blockchain solutions. Obtaining a large and decentralized set of validators is key to the security of the network, however this goal might prove too ambitious to attain for some niche projects.
+Безопасность является одной из основных сложностей, сдерживающих внедрение специализированных блокчейн решений первого уровня.  Получение большого количества децентрализованного набора валидаторов, является основным ключевым фактором безопасности сети, однако для некоторых нишевых проектов, эта цель может оказаться слишком амбициозной. 
 
-All Kusama parachains enjoy industrial-grade security which comes out of the box. They are connected to the relay chain (Kusama) and secured by its set of validators. Parachains have their own sets of collators that are responsible for maintaining a full-node of the parachain and for producing new block candidates. The produced block candidates are passed to the validators of the relay chain which verify the blocks and include them in the shared state of Kusama. As a result, parachains share the same high level of security as Kusama itself.
+Все парачейны сети Kusama имеют возможность наслаждаться безопасностью промышленного уровня. Они все подключены к основному реле-чейну (Kusama) и защищены ее набором валидатором. Парачейны имеют свои собственные команды коллаторов, которые ответственны за поддержание полного узла их парачейна и за создание кандидатов для новых блоков. Данные кандидаты новых блоков проходят через валидаторов реле-чейна, которые подтверждают что эти блоки и включают их в общее состояние Kusama. В результате, парачейны разделяют такой же уровень безопасности, как и сама сеть Kusama.
 
+## Масштабируемость {#scalability}
 
-## Scalability {#scalability}
+Несмотря на то, что парачейны подключены к реле-чейну, они также являются независимыми блокчейнами первого уровня, которые создают свои собственные блоки. Данная конструктивная особенность позволяет достичь высокой производительности, поскольку позволяет обрабатывать транзакции в разных блокчейнах параллельно. Возможность параллельной обработки транзакций лежит в основе нашумевшей масштабируемости и высокой пропускной способности сети Kusama. 
 
-Despite being connected to the relay chain, parachains remain independent layer-1 blockchains that produce their own blocks. This design feature has great performance implications because it allows transactions to be processed by different chains in parallel. The capability of parallel processing underpins the infamous scalability and high throughput of the Kusama network.
+## Совместимость {#interoperability}
 
-
-## Interoperability {#interoperability}
-
-All parachains that are connected to the Kusama relay chain can communicate with each other using a feature called Cross-Chain Message Passing (XCMP). XCMP empowers individual parachains not only to exchange tokens but also richer information such as smart contracts, thus paving the way for the DeFi expansion. Kusama's interoperability is a stepping stone towards the multi-chain future where cross-chain transfers become part of our daily lives.
+Все парачейны, которые подключены к реле-чейну Kusama могут общаться друг с другом, используя специальную функцию кросс-чейн обмена сообщений (Cross-Chain Message Passing - XCMP). XCMP позволяет каждому из парачейнов, не только обмениваться токенами, но и также обмениваться гораздо большей информацией, такой как смарт-контракты, тем самым открывая путь для расширения сферы DeFi (Децентрализованные финансы). Совместимость Kusama является одной из ступенью на пути к мульти-чейн будущему, где кросс-чейн переводы станут частью нашей повседневной жизни. 
